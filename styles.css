@@ -1,0 +1,29 @@
+#board {
+    padding-top: 3em;
+}
+.row {
+    clear:both;
+    margin: auto;
+    width: 302px;  
+}
+.row>div {
+    cursor: pointer;
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 90px
+}
+.top{
+    border-bottom: 1px black solid
+}
+.bot{
+    border-top: 1px black solid
+}
+.left{
+    border-right: 1px black solid
+}
+.right{
+    border-left: 1px black solid
+}
+h1, h2, h3 {text-align: center}
